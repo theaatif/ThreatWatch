@@ -16,7 +16,7 @@ This Python-based tool monitors live network traffic over HTTP/HTTPS and alerts 
 ## 🗝️ VirusTotal API Key
 - Create an account at https://virustotal.com
 - Go to your profile > API Key
--Replace "YOUR_VIRUSTOTAL_API_KEY" with your API in alert_system.py
+- Replace "YOUR_VIRUSTOTAL_API_KEY" with your API KEY in alert_system.py
 
 ## 🚀 Run the Tool
 - python alert_system.py
@@ -31,12 +31,12 @@ This Python-based tool monitors live network traffic over HTTP/HTTPS and alerts 
 - Look for the entry where Connection Name is something like "Wi-Fi", "Wireless Network Connection", or "Ethernet".
 
 - You’ll see a Transport Name like:
-\Device\NPF_{D293B4A3-61C1-4F6F-8C3A-B748D01984A1}
-Match that NPF_{...} Transport Name to the list shown in your script.
+- \Device\NPF_{D293B4A3-61C1-4F6F-8C3A-B748D01984A1}
+- Match that NPF_{...} Transport Name to the list shown in your script.
 
--Just enter the correct number when prompted:
-👉 Enter the interface number to monitor:
-For example, if “Wi-Fi” corresponds to 3. \Device\NPF_{ZZZZ}, just type 3 and hit Enter.
+- Just enter the correct number when prompted:
+- 👉 Enter the interface number to monitor:
+- For example, if “Wi-Fi” corresponds to 3. \Device\NPF_{ZZZZ}, just type 3 and hit Enter.
 
 ## Expected Output:
 
