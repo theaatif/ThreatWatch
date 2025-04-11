@@ -20,7 +20,8 @@ This Python-based tool monitors live network traffic over HTTP/HTTPS and alerts 
 
 ## 🚀 Run the Tool
 - python alert_system.py
-- Select your network interface when prompted. 
+- Select your network interface no.
+- Go to web browser and start surfing web like google.com, myntra.com, test.pht(for http)....etc.
 
 ## How to Identify Your Active Network Interface??
 - ✅ Open Command Prompt / PowerShell
@@ -38,7 +39,7 @@ Match that NPF_{...} Transport Name to the list shown in your script.
 For example, if “Wi-Fi” corresponds to 3. \Device\NPF_{ZZZZ}, just type 3 and hit Enter.
 
 ## Expected Output:
-![alt text](image.png)
+
 ![alt text](image-1.png)
 
 
