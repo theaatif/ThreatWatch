@@ -8,7 +8,7 @@ from datetime import datetime
 from plyer import notification
 from pyshark.tshark.tshark import get_tshark_interfaces
 
-VT_API_KEY = ""  # Add your VirusTotal API key here
+VT_API_KEY = "3a07daa4f694b854f0523b7e408c09345211f98e5facc5dc8c923a963b6f452a"  # Add your VirusTotal API key here
 
 is_running = True
 domain_cache = {}

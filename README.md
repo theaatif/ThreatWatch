@@ -1,30 +1,30 @@
-# 🛡️ HTTP/HTTPS Network Threat Monitor with VirusTotal
+#  HTTP/HTTPS Network Threat Monitor with VirusTotal
 
 This Python-based tool monitors live network traffic over HTTP/HTTPS and alerts you if any visited domains are flagged as **malicious by VirusTotal**.
 
-## 🔧 Features
+##  Features
 - Real-time HTTP/HTTPS monitoring
 - VirusTotal API integration
 - Desktop pop-up notifications for threats
 - Logs all traffic in `traffic_log.txt`
 
 
-## 🚀 Setup
+##  Setup
 - Clone this repo
 - pip install -r requirements.txt
 
-## 🗝️ VirusTotal API Key
+##  VirusTotal API Key
 - Create an account at https://virustotal.com
 - Go to your profile > API Key
 - Replace "YOUR_VIRUSTOTAL_API_KEY" with your API KEY in alert_system.py
 
-## 🚀 Run the Tool
+##  Run the Tool
 - python alert_system.py
 - Select your network interface no.
 - Go to web browser and start surfing web like google.com, myntra.com, test.php(for http)....etc.
 
 ## How to Identify Your Active Network Interface??
-- ✅ Open Command Prompt / PowerShell
+-  Open Command Prompt / PowerShell
 
 - Type the following command and press Enter:
 -      getmac /v /fo list
